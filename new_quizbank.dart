@@ -1731,6 +1731,27 @@ final Map<String, Map<String, List<Question>>> NewquizBank = {
         ],
         correctIndex: 3,
       ),
+      Question(
+        questionText:
+            "A frequency distribution helps in counting how often each value appears in the data.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null),
+        ],
+        correctIndex: 0,
+      ),
+      Question(
+        questionText:
+            " Observations are not a valid method of data collection.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null),
+        ],
+        correctIndex: 1,
+      ),
+      
     ],
     "lesson2": [
       Question(
@@ -1782,6 +1803,27 @@ final Map<String, Map<String, List<Question>>> NewquizBank = {
         ],
         correctIndex: 2,
       ),
+      Question(
+        questionText:
+            "A pie chart is best for showing parts of a whole.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null),
+        ],
+        correctIndex: 0,
+      ),
+      Question(
+        questionText:
+            "A bar graph is the best tool for showing trends over time.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null),
+        ],
+        correctIndex: 1,
+      ),
+      
     ],
     "lesson3": [
       Question(
@@ -1796,7 +1838,51 @@ final Map<String, Map<String, List<Question>>> NewquizBank = {
         ],
         correctIndex: 0,
       ),
-    ],
+      Question(
+        questionText:
+            "Which of the following is NOT a subset of integers?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "Natural Numbers", imagePath: null),
+          AnswerOption(text: "Whole Numbers", imagePath: null),
+          AnswerOption(text: "Fractions", imagePath: null),
+          AnswerOption(text: "Negative Integers", imagePath: null)
+        ],
+        correctIndex: 3,
+      ),
+         Question(
+        questionText:
+            "Which of the following is a whole number but NOT a natural number?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "-3", imagePath: null),
+          AnswerOption(text: "0", imagePath: null),
+          AnswerOption(text: "1", imagePath: null),
+          AnswerOption(text: "2", imagePath: null)
+        ],
+        correctIndex: 1,
+      ),
+      Question(
+        questionText:
+            "Negative numbers are part of the set of whole numbers.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null),
+        ],
+        correctIndex: 1,
+      ),
+       Question(
+        questionText:
+            "The number zero is an integer",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null),
+        ],
+        correctIndex: 0,
+      ),
+  ],
     "lesson4": [
       Question(
         questionText: "What is the result of -7 + 4?",
@@ -1820,6 +1906,48 @@ final Map<String, Map<String, List<Question>>> NewquizBank = {
         ],
         correctIndex: 1,
       ),
+        Question(
+        questionText:
+            "The sum of two negative integers is always negative.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null),
+        ],
+        correctIndex: 0,
+      ),
+       Question(
+        questionText:
+            "Subtracting a negative number is the same as adding a positive number.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null),
+        ],
+        correctIndex: 0,
+      ),
+        Question(
+        questionText: "What is the result of (-6) - (-9)?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "-3", imagePath: null),
+          AnswerOption(text: "3", imagePath: null),
+          AnswerOption(text: "-15", imagePath: null),
+          AnswerOption(text: "15", imagePath: null)
+        ],
+        correctIndex: 1,
+      ),
+         Question(
+        questionText: "What is the result of (-8) + (5)?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "-3", imagePath: null),
+          AnswerOption(text: "3", imagePath: null),
+          AnswerOption(text: "-13", imagePath: null),
+          AnswerOption(text: "13", imagePath: null)
+        ],
+        correctIndex: 0,
+      ),
     ],
     "lesson5": [
       Question(
@@ -1830,13 +1958,67 @@ final Map<String, Map<String, List<Question>>> NewquizBank = {
           AnswerOption(text: "The product is always positive", imagePath: null),
           AnswerOption(text: "The product is always negative", imagePath: null),
           AnswerOption(text: "The product is zero", imagePath: null),
-          AnswerOption(
-              text:
-                  "The product is always positive unless one of the integers is zero",
-              imagePath: null)
+          AnswerOption(text:"The product is always positive unless one of the integers is zero", imagePath: null)
         ],
         correctIndex: 1,
       ),
+       Question(
+        questionText:
+            "What is the result of (-3) × (-5)?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "-15", imagePath: null),
+          AnswerOption(text: "15", imagePath: null),
+          AnswerOption(text: "-8", imagePath: null),
+          AnswerOption(text:"8",imagePath: null)
+        ],
+        correctIndex: 1,
+      ),
+      Question(
+        questionText:
+            "What is the result of 6 ÷ (-3)?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "2", imagePath: null),
+          AnswerOption(text: "-2", imagePath: null),
+          AnswerOption(text: "3", imagePath: null),
+          AnswerOption(text:"-3",imagePath: null)
+        ],
+        correctIndex: 1,
+      ),
+      Question(
+        questionText:
+            "What is the result of (-24) ÷ (-6)?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "4", imagePath: null),
+          AnswerOption(text: "-4", imagePath: null),
+          AnswerOption(text: "18", imagePath: null),
+          AnswerOption(text:"-18",imagePath: null)
+        ],
+        correctIndex: 1,
+      ),
+      Question(
+        questionText:
+            "The product of two negative integers is negative.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null),
+        ],
+        correctIndex: 1,
+      ),
+      Question(
+        questionText:
+            "Dividing a positive integer by a negative integer results in a negative quotient.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null),
+        ],
+        correctIndex: 0,
+      ),
+      
     ],
     "lesson6": [
       Question(
@@ -1851,6 +2033,50 @@ final Map<String, Map<String, List<Question>>> NewquizBank = {
         ],
         correctIndex: 1,
       ),
+      Question(
+        questionText:
+            "Evaluate the expression: (6 + 4) ÷ 2 × 3",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "30", imagePath: null),
+          AnswerOption(text: "15", imagePath: null),
+          AnswerOption(text: "18", imagePath: null),
+          AnswerOption(text: "12", imagePath: null)
+        ],
+        correctIndex: 3,
+      ),
+      Question(
+        questionText:
+            "What is the first step in solving: 3 + 5 × (2² - 1)?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "Multiply 5 × 2", imagePath: null),
+          AnswerOption(text: "Solve the exponent 2²", imagePath: null),
+          AnswerOption(text: "Add 3 + 5", imagePath: null),
+          AnswerOption(text: "Subtract 1 from 2²", imagePath: null)
+        ],
+        correctIndex: 1,
+      ),
+      Question(
+        questionText:
+            "Multiplication must always be done before division in GEMDAS.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null),
+        ],
+        correctIndex: 1,
+      ),
+      Question(
+        questionText:
+            "Parentheses are solved first in the order of operations.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null),
+        ],
+        correctIndex: 0,
+      ),
     ],
     "lesson7": [
       Question(
@@ -1864,8 +2090,50 @@ final Map<String, Map<String, List<Question>>> NewquizBank = {
         ],
         correctIndex: 2,
       ),
+   Question(
+        questionText: "Which of the following is the correct absolute value notation?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "|-8| = -8", imagePath: null),
+          AnswerOption(text: "|-8| = 8", imagePath: null),
+          AnswerOption(text: "|8| = -8", imagePath: null),
+          AnswerOption(text: "|8| = -8", imagePath: null)
+        ],
+        correctIndex: 1,
+      ),
+      Question(
+        questionText: "What is the absolute value of -12?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "-12", imagePath: null),
+          AnswerOption(text: "12", imagePath: null),
+          AnswerOption(text: "0", imagePath: null),
+          AnswerOption(text: "24", imagePath: null)
+        ],
+        correctIndex: 1,
+      ),
+      
+    Question(
+        questionText:
+            "The absolute value of -12 is -12.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null),
+        ],
+        correctIndex: 1,
+      ),
+    Question(
+        questionText:
+            "|0| = 0",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null),
+        ],
+        correctIndex: 0,
+      ),
     ],
-  },
   "unit4": {
     "lesson1": [
       Question(
@@ -1881,22 +2149,57 @@ final Map<String, Map<String, List<Question>>> NewquizBank = {
       ),
       Question(
         questionText:
-            "What is the purpose of using a bar model to solve equations?",
+            "What is the first step in using a bar model to solve an equation?",
         questionImagePath: null,
         options: [
-          AnswerOption(
-              text:
-                  "To visualize the relationship between different quantities",
+          AnswerOption(text: "Form the equation",
               imagePath: null),
           AnswerOption(
-              text: "To show how variables are used in geometry",
+              text: "Draw the bar model",
               imagePath: null),
-          AnswerOption(text: "To find square roots", imagePath: null),
+          AnswerOption(text: "Understand the problem", imagePath: null),
           AnswerOption(
-              text: "To convert equations to fractions", imagePath: null)
+              text: "Label the parts", imagePath: null)
+        ],
+        correctIndex: 2,
+      ),
+      Question(
+        questionText:
+            "If the equation is x + 7 = 15, what is the value of x using a bar model?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "7",
+              imagePath: null),
+          AnswerOption(
+              text: "15",
+              imagePath: null),
+          AnswerOption(text: "8", imagePath: null),
+          AnswerOption(
+              text: "22", imagePath: null)
+        ],
+        correctIndex: 2,
+      ),
+      Question(
+        questionText:
+            "A bar model helps students visualize the relationship between variables in an equation.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null),
         ],
         correctIndex: 0,
       ),
+      Question(
+        questionText:
+            "In the bar model, the total bar always represents the sum of the unknown and the known parts.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null),
+        ],
+        correctIndex: 0,
+      ),
+      
     ],
     "lesson2": [
       Question(
@@ -1911,20 +2214,23 @@ final Map<String, Map<String, List<Question>>> NewquizBank = {
         ],
         correctIndex: 1,
       ),
+      
       Question(
-        questionText: "What does the 'P' in PEMDAS stand for?",
+        questionText:
+            " If x = 2 and y = 3, what is the value of the expression 3x + 2y?",
         questionImagePath: null,
         options: [
-          AnswerOption(text: "Parentheses", imagePath: null),
-          AnswerOption(text: "Powers", imagePath: null),
-          AnswerOption(text: "Proportions", imagePath: null),
-          AnswerOption(text: "Probability", imagePath: null)
+          AnswerOption(text: "9", imagePath: null),
+          AnswerOption(text: "12", imagePath: null),
+          AnswerOption(text: "8", imagePath: null),
+          AnswerOption(text: "11", imagePath: null)
         ],
         correctIndex: 0,
       ),
-      Question(
+
+       Question(
         questionText:
-            "In the order of operations, multiplication comes before addition.",
+            "If x = 2 and y = 3, what is the value of the expression 3x + 2y?",
         questionImagePath: null,
         options: [
           AnswerOption(text: "True", imagePath: null),
@@ -1932,9 +2238,56 @@ final Map<String, Map<String, List<Question>>> NewquizBank = {
         ],
         correctIndex: 0,
       ),
+          Question(
+        questionText:"What is a variable in an algebraic expression?",
+        questionImagePath: null,
+        options: [
+           AnswerOption(text: "A fixed number", imagePath: null),
+          AnswerOption(text: "A letter that represents an unknown or changing number", imagePath: null),
+          AnswerOption(text: "The number multiplied by a variable", imagePath: null),
+          AnswerOption(text: "The number that is added to the variable", imagePath: null)
+        ],
+        correctIndex: 1,
+      ),
+
       Question(
         questionText:
-            "An algebraic equation always includes a variable, constant, and an equal sign.",
+            "A constant in an algebraic expression is a variable that changes its value.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null)
+        ],
+        correctIndex: 1,
+      ),
+
+      Question(
+        questionText:"If x = 2 and y = 3, what is the value of the expression 3x + 2y?",
+        questionImagePath: null,
+        options: [
+           AnswerOption(text: "9", imagePath: null),
+          AnswerOption(text: "12", imagePath: null),
+          AnswerOption(text: "8", imagePath: null),
+          AnswerOption(text: "11", imagePath: null)
+        ],
+        correctIndex: 3,
+      ),
+
+      Question(
+        questionText:" What does the exponent in an expression like 5^3 represent?",
+        questionImagePath: null,
+        options: [
+           AnswerOption(text: " The number of times 5 is added", imagePath: null),
+          AnswerOption(text: "The number of times 5 is multiplied by itself", imagePath: null),
+          AnswerOption(text: "The number of variables in the expression", imagePath: null),
+          AnswerOption(text: "11", imagePath: null)
+        ],
+        correctIndex: 1,
+      ),
+
+      Question(
+        questionText:
+            "The expression 2a + 3b - 4 has three terms.",
         questionImagePath: null,
         options: [
           AnswerOption(text: "True", imagePath: null),
@@ -1942,76 +2295,69 @@ final Map<String, Map<String, List<Question>>> NewquizBank = {
         ],
         correctIndex: 0,
       ),
-      Question(
-        questionText: "What is the correct order of operations in PEMDAS?",
-        questionImagePath: null,
-        options: [
-          AnswerOption(
-              text:
-                  "Parentheses, Exponents, Multiplication, Addition, Subtraction",
-              imagePath: null),
-          AnswerOption(
-              text:
-                  "Parentheses, Exponents, Addition, Multiplication, Subtraction",
-              imagePath: null),
-          AnswerOption(
-              text:
-                  "Parentheses, Multiplication, Exponents, Addition, Subtraction",
-              imagePath: null),
-          AnswerOption(
-              text:
-                  "Parentheses, Multiplication, Addition, Subtraction, Exponents",
-              imagePath: null)
-        ],
-        correctIndex: 0,
-      ),
+
+      
+      
     ],
     "lesson4": [
       Question(
         questionText:
-            "Which property of equality states that if a = b, then b = a?",
+            "What does the Addition Property of Equality state?",
         questionImagePath: null,
         options: [
-          AnswerOption(text: "Reflexive Property", imagePath: null),
-          AnswerOption(text: "Symmetric Property", imagePath: null),
-          AnswerOption(text: "Transitive Property", imagePath: null),
-          AnswerOption(text: "Addition Property", imagePath: null)
+          AnswerOption(text: "If a = b, then a + c = b + c", imagePath: null),
+          AnswerOption(text: "If a = b, then a - c = b - c", imagePath: null),
+          AnswerOption(text: "If a = b, then a * c = b * c", imagePath: null),
+          AnswerOption(text: "If a = b, then a / c = b / c", imagePath: null)
         ],
-        correctIndex: 1,
+        correctIndex: 0,
       ),
       Question(
-        questionText: "What does the reflexive property of equality state?",
-        questionImagePath: null,
-        options: [
-          AnswerOption(text: "a = b implies b = a", imagePath: null),
-          AnswerOption(text: "a = a", imagePath: null),
-          AnswerOption(text: "a = b and b = c implies a = c", imagePath: null),
-          AnswerOption(text: "a + c = b + c", imagePath: null)
-        ],
-        correctIndex: 1,
-      ),
-      Question(
-        questionText:
-            "The symmetric property of equality states that if a = b, then b = a.",
+        questionText: "The Division Property of Equality allows you to divide both sides of an equation by the same number.",
         questionImagePath: null,
         options: [
           AnswerOption(text: "True", imagePath: null),
-          AnswerOption(text: "False", imagePath: null)
+          AnswerOption(text: "False", imagePath: null),
+        ],
+        correctIndex: 0,
+      ),
+      
+      Question(
+        questionText:
+            "Which property would you use to solve the equation x + 3 = 10?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "Multiplication Property of Equality", imagePath: null),
+          AnswerOption(text: "Addition Property of Equality", imagePath: null),
+          AnswerOption(text: "Division Property of Equality", imagePath: null),
+          AnswerOption(text: "Subtraction Property of Equality", imagePath: null)
         ],
         correctIndex: 0,
       ),
       Question(
         questionText:
-            "Which property of equality is used when you add the same number to both sides of an equation?",
+            "If x = 5, what is the result of applying the Multiplication Property of Equality to the equation x * 2 = 10?",
         questionImagePath: null,
         options: [
-          AnswerOption(text: "Reflexive Property", imagePath: null),
-          AnswerOption(text: "Addition Property", imagePath: null),
-          AnswerOption(text: "Symmetric Property", imagePath: null),
-          AnswerOption(text: "Subtraction Property", imagePath: null)
+          AnswerOption(text: "x = 7", imagePath: null),
+          AnswerOption(text: "2x = 10", imagePath: null),
+          AnswerOption(text: "x = 10", imagePath: null),
+          AnswerOption(text: "5x = 25", imagePath: null)
         ],
         correctIndex: 1,
       ),
+
+       Question(
+        questionText: "The Subtraction Property of Equality states that if a = b, then a - c = b - c for ",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null),
+        ],
+        correctIndex: 0,
+      ),
+      
+      
     ],
     "lesson5": [
       Question(
@@ -2090,6 +2436,26 @@ final Map<String, Map<String, List<Question>>> NewquizBank = {
         ],
         correctIndex: 1,
       ),
+      Question(
+        questionText: "To solve 2x + 4 = 10, you would first subtract 4 from both sides, resulting in 2x = 6.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null)
+        ],
+        correctIndex: 0,
+      ),
+
+      Question(
+        questionText: " In a word problem, the variable represents an unknown value that we need to solve for.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null)
+        ],
+        correctIndex: 0,
+      ),
+      
     ],
     "lesson3": [
       Question(
@@ -2140,6 +2506,55 @@ final Map<String, Map<String, List<Question>>> NewquizBank = {
         ],
         correctIndex: 0,
       ),
+
+       Question(
+        questionText:
+            "\"Three times a number is equal to 15.\" What is the algebraic equation?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "3 + x = 15", imagePath: null),
+          AnswerOption(text: "3x = 15", imagePath: null),
+          AnswerOption(text: "x + 3 = 15", imagePath: null),
+          AnswerOption(text: "3x + 15 = 0", imagePath: null)
+        ],
+        correctIndex: 1,
+      ),
+      Question(
+        questionText:
+            "\"The sum of a number and 8 is equal to 12\" can be written as x + 8 = 12.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null)
+        ],
+        correctIndex: 0,
+      ),
+
+      Question(
+        questionText:
+            "What does the phrase "6 less than a number" translate to algebraically?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "x + 6", imagePath: null),
+          AnswerOption(text: "x - 6", imagePath: null),
+          AnswerOption(text: "6x", imagePath: null),
+          AnswerOption(text: "6/x", imagePath: null)
+        ],
+        correctIndex: 1,
+      ),
+      Question(
+        questionText:
+            "The phrase "\5 more than a number\" translates to x + 5 in an equation.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null)
+        ],
+        correctIndex: 0,
+      ),
+
+      
+      
     ],
     "lesson8": [
       Question(
@@ -2217,6 +2632,33 @@ final Map<String, Map<String, List<Question>>> NewquizBank = {
         ],
         correctIndex: 1,
       ),
+
+      Question(
+        questionText:
+            "Maria buys 4 pencils for $1.25 each. What equation represents the total cost of the pencils?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "1.25 + 4x = 5", imagePath: null),
+          AnswerOption(text: "4x = 1.25", imagePath: null),
+          AnswerOption(text: "x + 1.25 = 5", imagePath: null),
+          AnswerOption(text: "4 * 1.25 = Total Cost", imagePath: null)
+        ],
+        correctIndex: 3,
+      ),
+
+       Question(
+        questionText:
+            "If a person saves $5 each week, and after 6 weeks, they have $30, what equation represents the situation?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "5x = 30", imagePath: null),
+          AnswerOption(text: "6x = 30", imagePath: null),
+          AnswerOption(text: "x + 5 = 30", imagePath: null),
+          AnswerOption(text: "x = 30", imagePath: null)
+        ],
+        correctIndex: 0,
+      ),
+      
     ],
     "lesson7": [
       Question(
@@ -2252,6 +2694,60 @@ final Map<String, Map<String, List<Question>>> NewquizBank = {
         ],
         correctIndex: 2,
       ),
+
+      Question(
+        questionText:
+            "What is the first step in solving the equation 2x + 3 = 11?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "Subtract 3 from both sides", imagePath: null),
+          AnswerOption(text: "Divide both sides by 2", imagePath: null),
+          AnswerOption(text: "Add 3 to both sides", imagePath: null),
+          AnswerOption(text: "Multiply both sides by 2", imagePath: null)
+        ],
+        correctIndex: 0,
+      ),
+
+      Question(
+        questionText:
+            " What is the solution to the equation 3x - 5 = 10?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "x = 5", imagePath: null),
+          AnswerOption(text: "x = 3", imagePath: null),
+          AnswerOption(text: "x = 15", imagePath: null),
+          AnswerOption(text: "x = 5", imagePath: null)
+        ],
+        correctIndex: 3,
+      ),
+
+      Question(
+        questionText:
+            "A multi-step equation requires performing more than one operation to isolate the variable.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null),
+        ],
+        correctIndex: 1,
+      ),
+
+      Question(
+        questionText:
+            "In the equation 4(x + 2) = 12, what is the first step to solve for x?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "Divide both sides by 4", imagePath: null),
+          AnswerOption(text: "Add 2 to both sides", imagePath: null),
+          AnswerOption(text: "Distribute the 4 on the left side", imagePath: null),
+          AnswerOption(text: "Subtract 2 from both sides", imagePath: null)
+        ],
+        correctIndex: 2,
+      ),
+      
+
+      
+      
     ],
     "lesson6": [
       Question(
@@ -2288,6 +2784,69 @@ final Map<String, Map<String, List<Question>>> NewquizBank = {
         ],
         correctIndex: 0,
       ),
+
+       Question(
+        questionText:
+            "What is the sample space of flipping a coin?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "{1, 2}", imagePath: null),
+          AnswerOption(text: "{H, T}", imagePath: null),
+          AnswerOption(text: "{Heads, 1}", imagePath: null),
+          AnswerOption(text: "{Tail, Coin}", imagePath: null)
+        ],
+        correctIndex: 0,
+      ),
+
+      Question(
+        questionText:
+            "The sample space of rolling a six-sided die is {1, 2, 3, 4, 5, 6}.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null),
+        ],
+        correctIndex: 0,
+      ),
+
+      Question(
+        questionText:
+            "What is the probability of drawing a heart from a deck of 52 cards?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "{1, 2}", imagePath: null),
+          AnswerOption(text: "{H, T}", imagePath: null),
+          AnswerOption(text: "{Heads, 1}", imagePath: null),
+          AnswerOption(text: "{Tail, Coin}", imagePath: null)
+        ],
+        correctIndex: 0,
+      ),
+
+      Question(
+        questionText:
+            "If you flip a coin and roll a die, how many possible outcomes are there?",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "8", imagePath: null),
+          AnswerOption(text: "12", imagePath: null),
+          AnswerOption(text: "6", imagePath: null),
+          AnswerOption(text: "2", imagePath: null)
+        ],
+        correctIndex: 1,
+      ),
+       Question(
+        questionText:
+            "Outcomes are equally likely if each outcome has the same chance of occurring.",
+        questionImagePath: null,
+        options: [
+          AnswerOption(text: "True", imagePath: null),
+          AnswerOption(text: "False", imagePath: null),
+        ],
+        correctIndex: 0,
+      ),
+    
+      
+      
     ],
   },
 };
